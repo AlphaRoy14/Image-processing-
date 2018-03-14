@@ -40,6 +40,7 @@ while True:
 
 
 	status_list.append(status)
+	status_list=status_list[-2:]
 
 	if status_list[-1]==1 and status_list[-2]==0:
 		times.append(datetime.now())
